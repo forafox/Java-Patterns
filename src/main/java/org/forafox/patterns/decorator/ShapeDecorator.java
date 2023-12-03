@@ -1,4 +1,4 @@
-package org.forafox.patterns;
+package org.forafox.patterns.decorator;
 
 public abstract class ShapeDecorator implements Shape {
 

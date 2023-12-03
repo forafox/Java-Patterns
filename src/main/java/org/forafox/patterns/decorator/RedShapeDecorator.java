@@ -1,4 +1,4 @@
-package org.forafox.patterns;
+package org.forafox.patterns.decorator;
 
 //ИФПРФЩПРЩЗФ
 public class RedShapeDecorator extends ShapeDecorator{

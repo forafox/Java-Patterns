@@ -1,5 +1,9 @@
-package org.forafox;
-import org.forafox.patterns.*;
+package org.forafox.patterns.decorator;
+
+import java.util.Locale;
+
+//Информация
+//Андрей
 public class Decorator {
     public static void main(String[] args)
     {
@@ -19,5 +23,7 @@ public class Decorator {
 
         System.out.println("\nТреугольник с красной границей:");
         redTriangle.draw();
+
+        System.out.println("андрей".toUpperCase(new Locale("ru")));
     }
 }
